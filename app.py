@@ -23,7 +23,7 @@ import seaborn as sns
 @st.cache_data  # Cache the function to enhance performance
 def load_data():
     # Define the file path
-    file_path = file_path = "data\\data with continents and without missing years.csv"
+    file_path = file_path = ".\\data\\data with continents and without missing years.csv"
     
     # Load the CSV file into a pandas dataframe
     df = pd.read_csv(file_path)
