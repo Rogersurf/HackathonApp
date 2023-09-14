@@ -16,7 +16,7 @@ st.set_page_config(
 @st.cache_data  # Cache the function to enhance performance
 def load_data():
     # Define the file path
-    file_path = "./data/data with continents and without missing years.csv"
+    file_path = 'data with continents and without missing years.csv'
     
     # Load the CSV file into a pandas dataframe
     df = pd.read_csv(file_path)
@@ -27,42 +27,18 @@ def load_data():
 df = load_data()
 
 # Set the app title and sidebar header
-st.title("Student assigment - Renewable Energy lets gets green 🌍♻️")
+st.title("Student assigment - Renewable Energy: Let's Get Green 🌍♻️")
 st.sidebar.header("Filters 📊")
 
 st.markdown("""
             Sustainable energy analysis
 """)
-
-# st.markdown("""
-#             Beginning with the significance of clean cooking fuels, which have a direct influence on public health and lower indoor air pollution, is a good place to start. Then, transition into the broader context of clean and renewable energy sources, highlighting the growth in renewable electricity generation and its share in total energy consumption.
-# Compare CO2 emissions amongst nations, paying particular attention to those that have made progress in adopting renewable energy.
-# Examine the economic aspect by showcasing GDP growth and GDP per capita trends in relation to clean energy development.
-# Narrate how countries have progressed in adopting clean energy sources, the challenges they face, and the potential economic and environmental benefits.This site is to showcase the currenct energy consumption
-# """)
-# with st.expander("📊 **Key Components of the Analysis**"):
-#                  st.markdown("""
-# A1. Access to Clean Cooking Fuels (% of Population): Start by addressing the percentage of the population with access to clean cooking fuels. This can be a critical factor for public health and the environment.
-
-# 2. Renewable-Electricity-Generating-Capacity-Per-Capita: Explore the renewable electricity generation capacity per capita to highlight the transition toward cleaner energy sources.
-
-# 3. Renewable Energy Share in Total Final Energy Consumption (%): Illustrate the share of renewable energy in the overall energy consumption, emphasizing the shift towards sustainability.
-
-# 4. Electricity from Renewables (TWh): Highlight the absolute amount of electricity generated from renewable sources to showcase the impact of clean energy.
-
-# 5. Value_CO2_Emissions_kt_by_Country: Show the CO2 emissions by country to provide context for the environmental impact.
-
-# 6. Renewables (% Equivalent Primary Energy): Explore the percentage of renewables in the equivalent primary energy mix to emphasize the importance of clean energy sources.
-
-# 7. GDP Growth and GDP per Capita: Examine the economic indicators like GDP growth and GDP per capita to understand how clean energy adoption relates to economic prosperity.
-
-# 8. Access to Electricity (% of Population): Include access to electricity as a related factor, as it is often linked to energy development and clean energy adoption.
-
-# 9. Latitude and Longitude: If there are geographic patterns in clean energy adoption, you can use latitude and longitude to create geographical visualizations.
-
-# 10. Density (P/Km2) and Land Area (Km2): Consider including population density and land area to assess the impact of clean energy policies on densely populated areas or regions with significant land resources.
-# """
-# )
+#with st.expander("📊 **Key Components of the Analysis**"):
+ #                st.markdown("""
+  #               - Years
+ #                -
+#"""
+#)
                  
 
 # Sidebar filter: Continent
