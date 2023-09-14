@@ -10,3 +10,19 @@
 
 # About the Course
 ### The AAUBS Data Science course at Aalborg University Business School is a rigorous program tailored to cultivate the next generation of data enthusiasts. This program doesn't just teach syntax; it instills a data-driven mindset. Through events like this hackathon, the course challenges students to apply theoretical knowledge in real-world scenarios, ensuring that we're not just proficient with tools and techniques, but also adept at problem-solving and critical thinking.
+
+# Meat our team
+### Rogerio Braunschweiger de Freitas Lima
+### Benjamin Ly
+### Christian Beck-Holtebo
+### Mikkel Christian Rosengreen
+### Sadik Hasan Khan Chowdhury
+
+# Final Words
+### We hope our dashboard provides you with as much insight and enjoyment as we had creating it. Thank you for this opportunity, and we look forward to your feedback!
+
+### To view our dashboard, follow the link provided in our submission.
+
+### Best regards,
+
+# G5
