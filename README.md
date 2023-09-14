@@ -1,1 +1,1 @@
-# AAU_Hackaton_EDA_23
+# HackathonApp
