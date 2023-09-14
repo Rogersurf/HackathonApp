@@ -177,7 +177,7 @@ import pandas as pd
 import altair as alt
 import matplotlib.pyplot as plt
 import seaborn as sns
-import plotly.express as px
+#import plotly.express as px
 
 st.set_page_config(
     page_title="Group 5 Hackathon EDA Dashboard",
