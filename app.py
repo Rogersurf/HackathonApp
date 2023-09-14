@@ -88,3 +88,6 @@ filtered_df = filtered_df[filtered_df['Year'].isin(selected_year)]
 # Display dataset overview
 st.header("Dataset Overview")
 st.dataframe(df.describe())
+
+if __name__ == "__main__":
+    load_data()
