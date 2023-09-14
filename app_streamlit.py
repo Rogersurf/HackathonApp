@@ -89,7 +89,7 @@ if visualization_option == "Box plot of Wordwide Renewable Electricity Generatin
 
 elif visualization_option == "Heatmap of Average Access to Clean Cooking Fuels by Continent and Year":
     # Display the average values
-    heatmap_data_pivot = filtered_df.pivot_table(index='Continent', columns='Year', values='Access to clean fuels for cooking')
+    heatmap_data_pivot = df.pivot_table(index='Continent', columns='Year', values='Access to clean fuels for cooking')
     # Create a heatmap
     plt.figure(figsize=(10, 6))
     sns.set_style("whitegrid")
