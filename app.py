@@ -20,10 +20,10 @@ import seaborn as sns
 
 
 # Function to load the dataset
-@st.cache_data  # Cache the function to enhance performance
+@st.cache  # Cache the function to enhance performance
 def load_data():
     # Define the file path
-    file_path = file_path = ".\\data\\data with continents and without missing years.csv"
+    file_path = ".\\data\\data with continents and without missing years.csv"
     
     # Load the CSV file into a pandas dataframe
     df = pd.read_csv(file_path)
@@ -88,6 +88,3 @@ filtered_df = filtered_df[filtered_df['Year'].isin(selected_year)]
 # Display dataset overview
 st.header("Dataset Overview")
 st.dataframe(df.describe())
-
-if __name__ == "__main__":
-    load_data()
