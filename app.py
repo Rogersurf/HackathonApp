@@ -8,7 +8,7 @@
 
 # st.set_page_config(
 #     page_title="Group 5 Hackathon EDA Dashboard",
-#     page_icon="✅",
+#     page_icon="random",
 #     layout="wide",
 # )
 
