@@ -4,6 +4,11 @@ import pandas as pd
 import altair as alt
 import matplotlib.pyplot as plt
 import seaborn as sns
+#from scalene import scalene_profiler
+
+# # Function using AI for better processing and speed
+# # Turn profiling on
+# scalene_profiler.start()
 
 st.set_page_config(
     page_title="Group 5 Hackathon EDA Dashboard",
@@ -11,7 +16,7 @@ st.set_page_config(
     layout="wide",
 )
 
-# Function to load the dataset
+
 @st.cache_data  # Cache the function to enhance performance
 def load_data():
     # Define the file path
@@ -21,6 +26,7 @@ def load_data():
     df = pd.read_csv(file_path)
 
     return df
+
 
 # Load the data using the defined function
 df = load_data()
@@ -148,3 +154,6 @@ with st.expander("Interpreting the visualizations"):
     3. **Are renewables for the rich?** - The scatterplot for each contry reveals that there is a trend that Europe and North America have higher maxiumums and are higher renewables percentages.
     4. **Scatterplot of GDP Growth vs. share of renewable energy by Continent** - The plot indicates that African countries have a tendency to have some of the highest share of renewable energy, while the rest are barely hitting the 50 percent mark.
     """)
+
+# # Turn profiling off
+# scalene_profiler.stop()
